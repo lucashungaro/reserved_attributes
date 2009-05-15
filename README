@@ -1,16 +1,16 @@
 = Reserved Attributes
 
-Checks all your models looking for attributes (columns) with names that are 
+Checks all your models looking for attributes (columns) with names that are
 Ruby/Rails reserved words.
 
-The list of reserved words is retreived from http://wiki.rubyonrails.org/rails/pages/ReservedWords and also in a dynamic way (calling Object.methods).
+The list of reserved words is retrieved from http://newwiki.rubyonrails.org/rails/pages/reservedwords and also in a dynamic way (calling Object.methods).
 
-This task won't prevent all errors, but it'll cover the most part.
+This task won't prevent all errors, but it'll cover most of them.
 
 = Use:
   rake check_reserved_attributes
 
-= Author: Lucas Húngaro (http://makemesimple.com/blog/)
+= Author: Lucas Húngaro (http://lucashungaro.github.com/)
   Code based on Dave Thomas' annotate_models
 
 = Released under the same license as Ruby. No Support. No Warranty.
